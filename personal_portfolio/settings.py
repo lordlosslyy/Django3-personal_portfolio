@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-yca=_e2&@7n)pb(15igfo2=!tbded7bw2ji(ifbazekg^4qf((
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','yun-yi-lin.herokuapp.com/']
+ALLOWED_HOSTS = ['127.0.0.1','yun-yi-lin.herokuapp.com/', '3.19.242.154']
 
 
 # Application definition
@@ -121,7 +121,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
-
+STATIC_ROOT = BASE_DIR / 'static'
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
